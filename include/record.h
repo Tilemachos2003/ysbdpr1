@@ -3,7 +3,7 @@
 
 
 typedef struct Record {
-  	char name[15];
+  char name[15];
 	char surname[15];
 	char city[15];
 	int id;	

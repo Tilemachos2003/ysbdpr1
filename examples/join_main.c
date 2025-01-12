@@ -14,10 +14,10 @@ void createAndPopulateHeapFile(char *filename, int recNum);
 int main()
 {
   BF_Init(LRU);
-  createAndPopulateHeapFile(HP_FILE1, 4000);
-  createAndPopulateHeapFile(HP_FILE2, 4000);
+  createAndPopulateHeapFile(HP_FILE1, 40);
+  createAndPopulateHeapFile(HP_FILE2, 40);
 
-  bnl_join(HP_FILE1,HP_FILE2);  
+  bnl_join(HP_FILE1,HP_FILE2);
 }
 
 void createAndPopulateHeapFile(char *filename, int recNum)
